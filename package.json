@@ -1,0 +1,25 @@
+{
+  "name": "dfa-simulator",
+  "version": "1.0.0",
+  "description": "Interactive DFA Simulator and Animator",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Build complete - static files ready for Vercel deployment'",
+    "start": "npx serve .",
+    "deploy": "echo 'Ready for Vercel deployment - push to GitHub and connect to Vercel'"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/preset-react": "^7.22.0",
+    "serve": "^14.2.0"
+  },
+  "keywords": ["dfa", "automata", "react", "animation", "education", "vercel"],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://dfa-simulator.vercel.app"
+}
