@@ -1,12 +1,10 @@
 {
   "version": 2,
   "name": "dfa-simulator",
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
+  "buildCommand": "echo 'Static files ready for deployment'",
+  "outputDirectory": ".",
+  "installCommand": "npm install",
+  "framework": null,
   "routes": [
     {
       "src": "/(.*)",
