@@ -1,25 +1,37 @@
 {
   "name": "dfa-simulator",
   "version": "1.0.0",
-  "description": "Interactive DFA Simulator and Animator",
+  "description": "Interactive DFA Simulator with stunning animations and 100% logically correct automata engine",
   "main": "index.html",
   "scripts": {
-    "dev": "npx serve .",
-    "build": "echo 'Build complete - static files ready for Vercel deployment'",
-    "start": "npx serve .",
-    "deploy": "echo 'Ready for Vercel deployment - push to GitHub and connect to Vercel'"
+    "start": "npx serve . -p 3000",
+    "dev": "npx serve . -p 3000",
+    "build": "echo '✅ Static files ready for deployment - no build process needed'",
+    "deploy": "vercel --prod",
+    "preview": "npx serve . -p 3001"
   },
+  "keywords": [
+    "dfa",
+    "automata",
+    "simulator",
+    "animation",
+    "react",
+    "vercel",
+    "deterministic-finite-automata",
+    "computer-science",
+    "education"
+  ],
+  "author": "DFA Simulator Team",
+  "license": "MIT",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.22.0",
-    "@babel/preset-react": "^7.22.0",
     "serve": "^14.2.0"
   },
-  "keywords": ["dfa", "automata", "react", "animation", "education", "vercel"],
-  "author": "",
-  "license": "MIT",
-  "homepage": "https://dfa-simulator.vercel.app"
+  "homepage": "https://dfa-simulator.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/dfa-simulator"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
